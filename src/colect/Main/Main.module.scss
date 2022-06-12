@@ -1,0 +1,21 @@
+.scrolbar{
+  width: 90%;
+  margin: auto;
+  margin-top: 3rem;
+
+  .advantages_item{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    
+    @media (min-width:768px) {
+      flex-wrap: nowrap;
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+    }
+   
+  }
+  
+}
+

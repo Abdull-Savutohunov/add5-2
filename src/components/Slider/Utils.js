@@ -1,0 +1,20 @@
+export const ImgList = [
+    {
+        id:1,
+        text:'',
+        price:'',
+        url:'https://cq-esports.com/storage/uploads/games/1100793/1.jpg',
+    },
+    {
+        id:2,
+        text:'',
+        price:'',
+        url:'https://s.gamer-info.com/vd/2/5/8/0/25801.jpg?v=0',
+    },
+    {
+        id:3,
+        text:'',
+        price:'',
+        url:'https://sun9-60.userapi.com/impf/Kxf8Bt9ySbjCPFXZ5Jt6SD2f2EbHv_Z5q5BL3g/R31mLNVi_WM.jpg?size=0x0&quality=90&proxy=1&sign=80691d25ffe0c7d1b6a3fc138721356c&c_uniq_tag=D0IEFgy-LFy22Ywf7ZrC6i6WmvORdn2arieK-_cGT1A&type=video_thumb',
+    },
+] 

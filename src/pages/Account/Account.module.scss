@@ -1,0 +1,24 @@
+.row{
+  justify-content: center;
+  align-items: center;
+
+  .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .photoURL{
+      border-radius: 50%;
+      box-shadow: 10px 10px 10px rgb(1, 72, 107);
+    }
+  }
+  .row_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .title{
+      color: white;
+    }
+  }
+}

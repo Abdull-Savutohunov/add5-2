@@ -1,0 +1,105 @@
+
+
+.slider_parent{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+/* 
+.slider_parent .sliderImg{
+  box-shadow: 10px 10px 10px rgb(1, 74, 87);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: .5s;
+  position: absolute;
+} */
+
+
+
+.slider_parent .sliderImg{
+  box-shadow: 10px 10px 10px rgb(1, 74, 87);
+  border-radius: 50px;
+  width: 85%;
+  height: 90%;
+  object-fit: cover;
+  opacity: 0;
+  transition: .5s;
+  position: absolute;
+}
+
+.sliderImg{
+  width: 100%;
+}
+
+
+.slider_parent .sliderImg.active{
+  opacity: 1;
+}
+
+.submitBtn{
+  background-color: rgb(51, 104, 250);
+  position: absolute;
+  top: 50%;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 13px;
+  transition: .5s;
+}
+
+
+.submitBtn:hover{
+  transform: scale(1.2);
+  box-shadow: 0 0 10px aqua;
+  background: aqua;
+}
+
+.prev{
+  left: 12%;
+  top: 45%;
+}
+
+.next{
+  right: 12%;
+  top: 45%;
+}
+
+
+
+.centerDot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  z-index: 3;
+}
+
+.dotItem{
+  width: 5%;
+  height: 8px;
+  border-radius: 10px;
+  margin: 0 20px;
+  background-color: rgb(250, 254, 255);
+  border: 2px solid goldenrod;
+  transition: .5s;
+  z-index: 3;
+}
+
+.dotActive{
+  transform: scale(1.5);
+  background: rgb(0, 235, 252);
+  z-index: 3;
+  height: 8px;
+}
+

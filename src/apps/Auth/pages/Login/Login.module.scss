@@ -1,0 +1,16 @@
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  .card{
+    border: 1px solid #000000;
+    padding: 30px 100px;
+    border-radius: 25px;
+
+    .img_google {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
