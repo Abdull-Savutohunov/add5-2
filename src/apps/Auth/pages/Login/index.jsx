@@ -11,23 +11,29 @@ const Login = () => {
   
   return (
     <React.Fragment>
+      
+      <div className={cls.row}>
       <div className={cls.container}>
-        <div className={cls.row} style={{height:'80vh'}}>
-            <div className={cls.card}>
-              <h1 className='text-center'>Login</h1>
-
-              <div >
-                <img
-                  className={cls.img_google} 
-                  onClick={handelLoginWithGoogle}
-                  width={'200px'} 
-                  style={{cursor:'pointer'}} 
-                  src="https://i.ya-webdesign.com/images/logo-google-chrome-png.png" 
-                  alt="" />
-              </div>
-            </div>
+        <div className={cls.brand_logo}></div>
+        <div className={cls.brand_title}>GABE / STORE</div>
+        <div className={cls.inputs}>
+          <label className={cls.label_password}>EMAIL</label>
+          <input className={cls.input_signIn} type="email" placeholder="example@test.com" />
+          <label className={cls.label_password}>PASSWORD</label>
+          <input className={cls.input_signIn} type="password" placeholder="Min 6 charaters long" />
+          <button className={cls.signOut_btn} type="submit">LOGIN</button>
+          <div className={cls.card}>
+            <img
+              className={cls.img_google} 
+              onClick={handelLoginWithGoogle}
+              width={'200px'} 
+              style={{cursor:'pointer'}} 
+              src="https://i.ya-webdesign.com/images/logo-google-chrome-png.png" 
+              alt="" />
+          </div>
         </div>
       </div>
+    </div>
     </React.Fragment>
   )
 }
