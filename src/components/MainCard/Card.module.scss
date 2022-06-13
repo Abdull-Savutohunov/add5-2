@@ -3,15 +3,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  margin-bottom: 20px;
+  gap: 70px;
+  margin: 20px 0;
 }
 
 .advantages_item_item{
+
   border: 2px solid goldenrod;
   color: goldenrod;
-  background: whitesmoke;
-  padding: 40px;
+  background: rgb(0, 0, 0);
+  padding: 10px 40px;
   border-radius: 10px;
   box-shadow:  0 0 5px gray;
   transition: .2s;
@@ -22,7 +23,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px auto;
     width: 100%;
     height: 100%;
   }
@@ -32,16 +32,4 @@
   .advantages_img{
     width: 100%;
   }
-
-
-  &:hover{
-    transform: scale(1.1);
-    background: rgb(6, 164, 255);
-    border: 2px solid aqua;
-    box-shadow: 0 0 50px aqua;
-    color: white;
-  }
-
-
-
 }

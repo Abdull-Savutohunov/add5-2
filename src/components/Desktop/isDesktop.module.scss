@@ -20,16 +20,16 @@
     transition: transform 250ms ease-in-out;
     font-size: 14px;
     line-height: 18px;
-    color: #575756;
+    color: #e9e9e3;
     border-radius: 50px;
-    border: 1px solid #575756;
+    border: 1px solid #ffffff;
     transition: all 250ms ease-in-out;
     backface-visibility: hidden;
     background:none ;
     &:hover{
       background-color: #ffffff;
-      border: 1px solid blue;
-      box-shadow: 0 0 10px aqua;
+      border: 1px solid rgb(255, 255, 255);
+      box-shadow: 0 0 10px rgb(255, 255, 255);
     }
   }
 
@@ -61,18 +61,18 @@
 
 .login_btn{
   padding: 10px;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 20px;
   background: none;
   cursor: pointer;
   
   &:hover{
-    border: 2px solid rgb(0, 132, 255);
-    box-shadow: 0 0 10px rgb(0, 132, 255);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
   }
 
   .login_btn_2 a{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     text-decoration: none;
   }  
@@ -83,6 +83,6 @@
 }
 
 .nav_item ul li a{
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 30px;
 }

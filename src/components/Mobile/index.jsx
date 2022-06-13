@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { navList } from '../../utils/List'
-// import Search from '../Search'
+import Search from '../Search'
 import './isMobile.css'
 
 
@@ -17,9 +17,9 @@ const Mobile = () => {
               <span className="line line2"></span>
               <span className="line line3"></span>
             </div>  
-            {/* <div>
-              <Search />
-            </div> */}
+            <div>
+              <Search/>
+            </div>
             <div className="logo_card">
               <img className="logo_img" src="https://poisk-firm.ru/storage/employer/logo/50/84/76/f7bb8aca18f50da0b48cb17b24.jpg" alt="" />
             </div>
