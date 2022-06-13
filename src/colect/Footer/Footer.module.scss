@@ -1,25 +1,13 @@
+.footer_line{
+  width: 94%;
+  
+}
+
+
 .list {
     display: flex;
-  }
-  
-  
-  .list ul{
-    padding-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-  }
-  
-  .list li{
-    position: relative;
-    list-style: none;
-  }
-  .list li a{
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
   }
   
   .footer_content{
@@ -40,7 +28,6 @@
   
   .footer_icons{
     cursor: pointer;
-    padding: 20px;
     gap: 20px;
     display: flex;
     font-size: 50px;

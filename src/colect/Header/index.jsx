@@ -17,8 +17,6 @@ const Header = () => {
     query:"(min-width:769px)"
   })
 
-
-
   return (
     <div>
       <React.Fragment >

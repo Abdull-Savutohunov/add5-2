@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
 
 .row{
+  width: 94%;
   display: flex;
-  margin: 0 2.5%;
+  margin: 0 3%;
 }
 .search__container{
   margin: auto;
@@ -12,7 +13,6 @@
   width: 50%;
 
   .search__input {
-    margin: 20px;
     width: 100%;
     padding: 12px 24px;
     transition: transform 250ms ease-in-out;
@@ -32,15 +32,12 @@
   }
 
 }
-
-
-
 .logo_card{
   width: 50px;
   height: 50px;
   position: absolute;
-  top: 17px;
-  left: 19px;
+  top: 10px;  
+  left: 3%;
   font-size: 1.2rem;
 }
 .logo_img{
@@ -73,11 +70,8 @@
     color: black;
     font-size: 20px;
     text-decoration: none;
-    
-  
   }  
 }
-
 
 .nav_item ul li{
   list-style: none;

@@ -1,5 +1,3 @@
-
-
 .slider_parent{
   position: relative;
   display: flex;
@@ -7,7 +5,6 @@
   justify-content: center;
   height: 100vh;
 }
-
 
 /* 
 .slider_parent .sliderImg{
@@ -20,24 +17,16 @@
   position: absolute;
 } */
 
-
-
 .slider_parent .sliderImg{
   box-shadow: 10px 10px 10px rgb(1, 74, 87);
   border-radius: 50px;
-  width: 85%;
-  height: 90%;
+  width: 94%;
+  height: 95%;
   object-fit: cover;
   opacity: 0;
   transition: .5s;
   position: absolute;
 }
-
-.sliderImg{
-  width: 100%;
-}
-
-
 .slider_parent .sliderImg.active{
   opacity: 1;
 }
@@ -58,7 +47,6 @@
   transition: .5s;
 }
 
-
 .submitBtn:hover{
   transform: scale(1.2);
   box-shadow: 0 0 10px aqua;
@@ -66,16 +54,14 @@
 }
 
 .prev{
-  left: 12%;
+  left: 6%;
   top: 45%;
 }
 
 .next{
-  right: 12%;
+  right: 6%;
   top: 45%;
 }
-
-
 
 .centerDot{
   display: flex;

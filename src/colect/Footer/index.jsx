@@ -10,41 +10,6 @@ const Footer = () => {
     <div className={cls.footer_container}>
       <hr className={cls.footer_line}/>
       <div className={cls.list}>
-        <ul >
-          <li>
-            <a href="">Лидеры</a>
-          </li>  
-          <li>
-            <a href="">Подборки</a>
-          </li>  
-          <li>
-            <a href="">Поддержка </a>
-          </li>  
-          <li>
-            <a href="">О компании</a>
-          </li>  
-          <li>
-            <a href="">Новинки</a>
-          </li>  
-          <li>
-            <a href="">Скидки</a>
-          </li>  
-          <li>
-            <a href="">Блог</a>
-          </li>  
-          <li>
-            <a href="">Контакты</a>
-          </li>  
-          <li>
-            <a href="">Предзаказы </a>
-          </li>  
-          <li>
-            <a href="">Подарочные карты </a>
-          </li> 
-          <li>
-            <a href="">Вакансии</a>
-          </li> 
-        </ul>
         <div className={cls.footer_icons}>
             <FaTelegramPlane />
             <AiFillYoutube />
