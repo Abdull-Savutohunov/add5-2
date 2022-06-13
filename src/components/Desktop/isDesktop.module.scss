@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
 
 .row{
+  position: fixed;
+  z-index: 1;
   width: 94%;
   display: flex;
   margin: 0 3%;
@@ -39,12 +41,15 @@
   top: 10px;  
   left: 3%;
   font-size: 1.2rem;
+
+  .logo_img{
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+  }
 }
-.logo_img{
-  border-radius: 50px;
-  width: 100%;
-  height: 100%;
-}
+
+
 
 
 .nav_item ul{
