@@ -34,10 +34,15 @@ body{
 
 .navbar .nav-container a {
   text-decoration: none;
-  color: #0e2431;
+  color: white;
   font-weight: 500;
+  text-transform: uppercase;
   font-size: 1.2rem;
   padding: 0.7rem;
+}
+
+.nav_icon_listParent{
+  padding-left: 0;
 }
 
 
@@ -95,7 +100,7 @@ body{
 }
 
 .navbar .menu-items {
-  background-color: aqua;
+  background-color: #151d21 ;
   height: 100vh;
   width: 100%;
   transform: translate(-150%);

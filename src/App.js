@@ -4,6 +4,10 @@ import LeyoutRoutes from "./pages/LayoutRoutes";
 import AuthRoutes from "./pages/AuthRoutes";
 import Loader from "./components/Loader";
  
+// CSS Imports
+
+import './App.css'
+
 export const App = () =>{
 
   const { users , loading } = useLogin()

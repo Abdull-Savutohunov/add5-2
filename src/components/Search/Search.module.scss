@@ -9,7 +9,6 @@
 .search_box input[type=text] {
   border: none;
   background: none;
-  z-index: 1;
   width: 25px;
   height: 25px;
   transition: all 0.2s ease-in 0.2s;
@@ -27,14 +26,14 @@
   background: rgba(244, 242, 242, 0.2);
 }
 .search_box input[type=text]:focus {
-  width: 150px;
+  width: 600px;
   padding: 0 10px;
   outline: none;
   color: rgb(255, 247, 247);
   background: none;
 }
 .search_box input[type=text]:focus + span {
-  width: 150px;
+  width: 100%;
 }
 .search_box input[type=text]:focus + span::before {
   width: 2px;
@@ -53,7 +52,7 @@
   left: 0;
 }
 .search_box input[type=text] + span::before {
-    left: 4px;
+  left: 4px;
   top: 3px;
   transition: all 0.2s ease-in 0.5s;
   transform-origin: left top;
@@ -64,4 +63,24 @@
   border-radius: 5px;
   background: rgb(255, 255, 255);
   transform: rotate(45deg) translate(26px, -2px);
+}
+@media screen and (min-width :320px) {
+  .search_box input[type=text]:focus {
+    width: 130px;
+  }
+}
+@media screen and (min-width :375px) {
+  .search_box input[type=text]:focus {
+    width: 180px;
+  }
+}
+@media screen and (min-width :425px) {
+  .search_box input[type=text]:focus {
+    width: 200px;
+  }
+}
+@media screen and (min-width :768px) {
+  .search_box input[type=text]:focus {
+    width: 400px;
+  } 
 }

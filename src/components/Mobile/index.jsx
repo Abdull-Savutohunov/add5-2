@@ -26,7 +26,7 @@ const Mobile = () => {
             
             <div className="menu-items">
               <div className='nav_item'>
-                <ul>
+                <ul className='nav_icon_listParent'>
                   {
                     navList.map(item => <li key={item.id} className='nav_list'>
                       <Link to={item.path}>

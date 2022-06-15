@@ -31,25 +31,16 @@ return (
           {
             ImgList.map((img , index) => <img src={img.url} key={img.id} className={sliderIndex === index + 1 ? "sliderImg active" : "sliderImg"}/>)
           }
-
-          <div className='sliderLine'>
+          <div className='slider_button_blog '>
             <Button direction="prev" handelSlide={prevSlide}/>
-              <div className='sliderDot'>
-                <div className='centerDot'>
-                  {
-                    Array.from({length:3}).map((dot , index) => <Dot index={index} key={index} sliderIndex={sliderIndex}/>)
-                  }
-                </div>
-              </div>
             <Button direction="next" handelSlide={nextSlide}/>
+            <div className='line_parent'>
+              {
+                Array.from({length:3}).map((dot , index) => <Dot index={index} key={index} sliderIndex={sliderIndex}/>)
+              }
+            </div>
           </div>
         </div>
-        {/* <div className='centerDot'>
-          {
-            Array.from({length:3}).map((dot , index) => <Dot index={index} key={index} sliderIndex={sliderIndex}/>)
-          }
-        </div> */}
-        
       </div>
     </>
   )
